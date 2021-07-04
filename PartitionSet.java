@@ -37,7 +37,7 @@ class PartitionSet {
         PartitionSet ps = new PartitionSet();
         int[] num = {1, 2, 3, 4};
 //        System.out.println(ps.canPartition(num));
-        num = new int[]{1, 1, 3, 4, 7};
+        num = new int[]{3, 1, 1,1};
         System.out.println(ps.canPartition(num));
 //        num = new int[]{2, 3, 4, 6};
 //        System.out.println(ps.canPartition(num));
