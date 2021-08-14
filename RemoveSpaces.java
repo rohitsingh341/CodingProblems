@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package CodingExercises;
 
 class RemoveSpaces {
     static boolean isWhiteChar(char c) {

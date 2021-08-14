@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package CodingExercises;
 
 public class FindMissingNumberXOR {
     public static void main(String[] args) {

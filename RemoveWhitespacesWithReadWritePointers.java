@@ -1,4 +1,4 @@
-package DynamicProgramming;
+package CodingExercises;
 
 import static java.lang.Character.isWhitespace;
 
@@ -13,7 +13,7 @@ public class RemoveWhitespacesWithReadWritePointers {
     }
     static void print(char[] s) {
         int i = 0;
-        while (i < s.length && s[i] != '\0') {
+        while (i < s.length && s[i] != '\0') { // here put additional check of end of character
             System.out.print(s[i]);
             ++i;
         }
@@ -21,7 +21,6 @@ public class RemoveWhitespacesWithReadWritePointers {
     }
 
     private static void removeWhitespaces(char[] str) {
-
         int readPtr = 0;
         int writePtr = 0;
 
@@ -32,6 +31,6 @@ public class RemoveWhitespacesWithReadWritePointers {
             }
             ++readPtr;
         }
-        str[writePtr] = '\0';
+        str[writePtr] = '\0'; // Put end of character
     }
 }
