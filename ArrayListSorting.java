@@ -1,4 +1,3 @@
-package CodingExercises;
 
 import java.util.*;
 import java.util.stream.Collectors;
